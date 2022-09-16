@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[39,)"
+license="All rights reserved"
+[[mods]]
+modId="turtorialmod"
+version="${file.jarVersion}"
+displayName="Tutorial Mod"
+logoFile="examplemod.png"
+credits="Thanks for this example mod goes to Java"
+authors="The Sirdrew24"
+description='''
+This is a long form description of the mod. You can write whatever you want here
+'''
+[[dependencies.turtorialmod]]
+    modId="forge"
+    mandatory=true
+    versionRange="[39,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.turtorialmod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.1,1.19)"
+    ordering="NONE"
+    side="BOTH"
